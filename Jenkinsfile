@@ -12,13 +12,13 @@ pipeline{
             }
         }
 
-        stage('NPM Install') {
+   stage('NPM Install') {
             steps {
                sh "npm install"
             }
         }
 
-         stage('Node build') {
+  stage('Node build') {
             steps {
                sh "npm run build"
             }
