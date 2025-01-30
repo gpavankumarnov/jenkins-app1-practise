@@ -18,6 +18,8 @@ pipeline{
             }
         }
 
+
+
   stage('Node build') {
             steps {
                sh "npm run build"
